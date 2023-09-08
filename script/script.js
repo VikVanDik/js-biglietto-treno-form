@@ -11,5 +11,5 @@ const send = document.getElementById('invia');
 const disappear = document.getElementById('disappear')
 
 send.addEventListener('click', function(){
-  disappear.classList.toggle('d-none')
+  disappear.classList.toggle('d-none');
 })
