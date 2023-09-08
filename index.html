@@ -27,17 +27,12 @@
             </div>
             <div class="col">
               <label class="d-block">Età</label>
-              <div class="dropdown">
-                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-              
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </div>
+              <select class="form-select" aria-label="Default select example" id="age">
+                <option selected>Indica la tua fascia d'età</option>
+                <option value="1">Minorenne</option>
+                <option value="2">Maggiorenne</option>
+                <option value="3">Over 65</option>
+              </select>
             </div>
           </div>
           <button type="button" class="btn btn-success" id="invia">Success</button>
@@ -90,6 +85,6 @@
     </div>
 
   </div>
-  <script href="./script/script.js"></script>
+  <script src="./script/script.js"></script>
 </body>
 </html>
